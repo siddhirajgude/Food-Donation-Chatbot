@@ -1,0 +1,36 @@
+{
+  "intents": [
+    {
+      "tag": "greeting",
+      "patterns": ["Hi", "hii", "Hello", "Hey", "Good morning", "Good evening"],
+      "responses": ["Hello! 😊 How can I help you today?", "Hi there! Do you want to send or receive food?"]
+    },
+    {
+      "tag": "send_food",
+      "patterns": ["I want to send food", "I have leftover food", "Can I donate food?", "Send food"],
+      "responses": ["Great! Please click the 'Send' button to fill the donor form 🍲"]
+    },
+
+    {
+      "tag": "sender_process",
+      "patterns": ["What is sender process?", "How can send food?", "what is sender process", "what is sender need fill the info"],
+      "responses": ["Sure! Please click the 'sender' button to fill the sender information form 🥗, like what eactly food you want send"]
+    },
+
+    {
+      "tag": "receive_food",
+      "patterns": ["I need food", "Can I receive food?", "I am hungry", "Receive food"],
+      "responses": ["Sure! Please click the 'Receive' button to fill the receiver form 🥗"]
+    },
+    {
+      "tag": "thanks",
+      "patterns": ["Thanks", "ooh", "Thank you", "Thanks a lot", "Ok, thanks"],
+      "responses": ["You’re welcome! 😊"]
+    },
+    {
+      "tag": "goodbye",
+      "patterns": ["Bye", "Goodbye", "See you later"],
+      "responses": ["Goodbye! Take care 🌟", "See you soon!"]
+    }
+  ]
+}
