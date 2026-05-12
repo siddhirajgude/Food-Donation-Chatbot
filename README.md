@@ -97,6 +97,3 @@ Project_Screen.mp4
 
 ## 👩‍💻 Author
 Siddhi Rajgude.
-
-## Contribution
-Feel free to contribute and improve this project!
